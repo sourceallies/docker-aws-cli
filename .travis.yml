@@ -1,0 +1,10 @@
+language: python
+services:
+  - docker
+env:
+  matrix:
+    - AWSCLI_VERSION: 1.11.13
+    - AWSCLI_VERSION: 1.10.38
+script:
+  - sed -i -e "s/1.10.38/${AWSCLI_VERSION}/" Dockerfile
+  - docker build -t vincetse/aws-cli .
