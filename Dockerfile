@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.5
 ENV AWSCLI_VERSION "1.11.52"
 RUN apk -v --update add \
         python \
