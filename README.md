@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/vincetse/docker-aws-cli.svg?branch=master)](https://travis-ci.org/vincetse/docker-aws-cli)
+[![Build Status](https://travis-ci.org/infrastructure-as-code/docker-aws-cli.svg?branch=master)](https://travis-ci.org/infrastructure-as-code/docker-aws-cli)
 
 # AWS CLI in Docker
 
