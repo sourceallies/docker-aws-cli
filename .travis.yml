@@ -3,6 +3,7 @@ services:
   - docker
 env:
   matrix:
+    - AWSCLI_VERSION: 1.11.66
     - AWSCLI_VERSION: 1.11.65
     - AWSCLI_VERSION: 1.11.64
     - AWSCLI_VERSION: 1.11.63
