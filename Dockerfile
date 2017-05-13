@@ -10,6 +10,7 @@ RUN apk -v --update add \
         && \
     pip install --upgrade awscli==${AWSCLI_VERSION} && \
     pip install --upgrade boto3 && \
+    pip install --upgrade jinja2-cli && \
     apk -v --purge del py-pip && \
     rm /var/cache/apk/*
 VOLUME /root/.aws
