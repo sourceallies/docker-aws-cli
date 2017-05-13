@@ -8,6 +8,7 @@ RUN apk -v --update add \
         mailcap \
         && \
     pip install --upgrade awscli==${AWSCLI_VERSION} && \
+    pip install --upgrade boto3 && \
     apk -v --purge del py-pip && \
     rm /var/cache/apk/*
 VOLUME /root/.aws
