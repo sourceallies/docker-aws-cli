@@ -6,6 +6,7 @@ RUN apk -v --update add \
         groff \
         less \
         mailcap \
+        zip \
         && \
     pip install --upgrade awscli==${AWSCLI_VERSION} && \
     pip install --upgrade boto3 && \
